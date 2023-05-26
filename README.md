@@ -2,7 +2,7 @@
 
 ## Contents
 - [App Description](#app-description)
-- [Features](#features:)
+- [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 
