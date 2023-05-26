@@ -2,11 +2,9 @@
 
 ## Contents
 - [App Description](#app-description)
-- [Cara Menjalankan Aplikasi](#cara-menjalankan-aplikasi)
-- [Batasan Aplikasi](#batasan-aplikasi)
-- [Daftar Modul yang Diimplementasi](#daftar-modul-yang-diimplementasi)
-- [Daftar Tabel Basis Data](#daftar-tabel-basis-data)
-- [Author](#author)
+- [Features](#features:)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
 
 ## App Description
 ProduktifYuk! is a powerful and intuitive Pomodoro and Todo app built with React Native, using the Expo development toolset. It leverages the robust capabilities of Google Firebase for seamless backend functionality.Whether you're a student, a professional, or anyone seeking enhanced productivity and time management, ProduktifYuk! is here to help you stay focused and organized. 
