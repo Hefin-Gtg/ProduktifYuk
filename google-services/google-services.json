@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "545252311424",
+    "project_id": "produktifyuk-dev",
+    "storage_bucket": "produktifyuk-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545252311424:android:9f57719b774d3ad2840165",
+        "android_client_info": {
+          "package_name": "com.fnftech.produktifyuk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545252311424-ea5f94q4lssd61iiq26oeqotjibiht8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmPfzbria7ZAKcy9DvIFOBIYNgSkNVd2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545252311424-ea5f94q4lssd61iiq26oeqotjibiht8t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "545252311424-0fbddo984h1u6k8lpe3bml52rs1h1i3j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fnftech.produktifyuk"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
