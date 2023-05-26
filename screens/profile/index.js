@@ -1,10 +1,9 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Button, List, Text } from "react-native-paper";
+import { Button, Text } from "react-native-paper";
 import auth from '@react-native-firebase/auth';
 
-import { useAuth } from "../../contexts/AuthProvider";
 
 
 

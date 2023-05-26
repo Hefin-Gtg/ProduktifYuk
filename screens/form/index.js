@@ -3,7 +3,6 @@ import { useState } from "react";
 import { Image, StyleSheet, View } from "react-native";
 import { Button, HelperText, IconButton, Text, TextInput } from "react-native-paper";
 import theme from "../../config/theme";
-import auth from '@react-native-firebase/auth';
 import firestore from '@react-native-firebase/firestore';
 import { useAuth } from "../../contexts/AuthProvider";
 import storage from '@react-native-firebase/storage';
@@ -46,10 +45,8 @@ export default function ToDoForm() {
     }
 
     const handleSubmit = async () => {
-        // console.log(user.uid, title, description)
 
         if (loading) {
-            // skip submitting if loading
             return false;
         }
         const findErrors = validate();
@@ -89,7 +86,7 @@ export default function ToDoForm() {
                         updatedAt: firestore.FieldValue.serverTimestamp()
                     }, { merge: true })
                 }
-                // console.log("success")
+
                 navigation.navigate("Home");
             } catch (e) {
                 console.log("e", e)
@@ -203,21 +200,4 @@ const styles = StyleSheet.create({
     }
 })
 
-/*
 
-const navigation = useNavigation();
-return (
-        <View style={styles.container}>
-        <IconButton onPress={() => navigation.navigate("ToDo")} icon="pencil" />
-        </View>
-        
-    );
-};
-
-const styles = StyleSheet.create({
-        container: {
-        flex: 1,
-        },
-    });
-
-*/

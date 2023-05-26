@@ -1,8 +1,3 @@
-
-import { SafeAreaView } from "react-native-safe-area-context";
-import { useNavigation } from "@react-navigation/native";
-import auth from '@react-native-firebase/auth';
-import { useAuth } from "../../contexts/AuthProvider";
 import theme from "../../config/theme";
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
@@ -14,7 +9,7 @@ const Pomodoro = () => {
   const [workTime, setWorkTime] = useState(25);
   const [breakTime, setBreakTime] = useState(5);
   const [intervalId, setIntervalId] = useState(null);
-  const navigation = useNavigation();
+  
   
   useEffect(() => {
     if (time === 0) {
@@ -168,14 +163,3 @@ const styles = StyleSheet.create({
 });
 
 export default Pomodoro;
-
-/*
-<View style={styles.nav}>
-        <Button style={styles.buttonNav} mode="contained" onPress={() => navigation.navigate("ToDoForm", { mode: "create" })}>
-          To-Do
-        </Button>
-        <Button style={styles.buttonNav} mode="contained" onPress={() => navigation.navigate("MyProfile")}>
-          Reset
-        </Button>
-      </View>
-*/

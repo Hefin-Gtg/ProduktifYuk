@@ -1,8 +1,8 @@
 import { FlatList, StyleSheet, View, Alert } from "react-native";
-import { ActivityIndicator, Appbar, Button, FAB, IconButton, List, Text } from "react-native-paper";
+import {  Appbar, FAB, IconButton, List } from "react-native-paper";
 import theme from "../../config/theme";
 
-import auth from '@react-native-firebase/auth';
+
 import { useNavigation } from "@react-navigation/native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -10,7 +10,6 @@ import { useState,useEffect } from "react";
 import firestore from '@react-native-firebase/firestore';
 
 import { useAuth } from "../../contexts/AuthProvider";
-import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 export default function Todo() {
     const {user} = useAuth();
